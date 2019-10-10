@@ -1,0 +1,1504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="77" passed="77">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Biocept" duration-ms="1078551" started-at="2019-07-29T05:36:10Z" finished-at="2019-07-29T05:54:09Z">
+    <groups>
+    </groups>
+    <test name="CTC-FISH Workflow for Global Cases" duration-ms="625450" started-at="2019-07-29T05:36:10Z" finished-at="2019-07-29T05:46:36Z">
+      <class name="biocept.qa.testcases.CTC_FISHWorklow">
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="246" started-at="2019-07-29T11:06:15Z" finished-at="2019-07-29T11:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LIMSLogin()[pri:1, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="LIMSLogin" duration-ms="70496" started-at="2019-07-29T11:06:16Z" description="Verify user is able to login in LIMS portal" finished-at="2019-07-29T11:07:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LIMSLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="490" started-at="2019-07-29T11:07:26Z" finished-at="2019-07-29T11:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LIMSLogin status=SUCCESS method=CTC_FISHWorklow.LIMSLogin()[pri:1, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="15" started-at="2019-07-29T11:07:27Z" finished-at="2019-07-29T11:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dashboard()[pri:2, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="dashboard" duration-ms="54" started-at="2019-07-29T11:07:27Z" description="Verify the total link count on dashboard " depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.LIMSLogin" finished-at="2019-07-29T11:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="76" started-at="2019-07-29T11:07:27Z" finished-at="2019-07-29T11:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dashboard status=SUCCESS method=CTC_FISHWorklow.dashboard()[pri:2, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="16" started-at="2019-07-29T11:07:27Z" finished-at="2019-07-29T11:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PlaceNewOrder()[pri:3, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="PlaceNewOrder" duration-ms="107790" started-at="2019-07-29T11:07:27Z" description="Verify user is able to create a new accession for CTC-FISH" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.LIMSLogin" finished-at="2019-07-29T11:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceNewOrder -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="83" started-at="2019-07-29T11:09:15Z" finished-at="2019-07-29T11:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PlaceNewOrder status=SUCCESS method=CTC_FISHWorklow.PlaceNewOrder()[pri:3, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="41" started-at="2019-07-29T11:09:15Z" finished-at="2019-07-29T11:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PatientNameOnBarcodePage()[pri:4, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="PatientNameOnBarcodePage" duration-ms="1236" started-at="2019-07-29T11:09:15Z" description="Verify patient name on barcode page" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.PlaceNewOrder" finished-at="2019-07-29T11:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PatientNameOnBarcodePage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="72" started-at="2019-07-29T11:09:16Z" finished-at="2019-07-29T11:09:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PatientNameOnBarcodePage status=SUCCESS method=CTC_FISHWorklow.PatientNameOnBarcodePage()[pri:4, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="10" started-at="2019-07-29T11:09:16Z" finished-at="2019-07-29T11:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="UploadAccessionImagesPageTitle()[pri:5, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="UploadAccessionImagesPageTitle" duration-ms="9908" started-at="2019-07-29T11:09:16Z" description="Verify user is able to upload the CTC/FISH images" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.PlaceNewOrder" finished-at="2019-07-29T11:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadAccessionImagesPageTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="55" started-at="2019-07-29T11:09:26Z" finished-at="2019-07-29T11:09:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UploadAccessionImagesPageTitle status=SUCCESS method=CTC_FISHWorklow.UploadAccessionImagesPageTitle()[pri:5, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="8" started-at="2019-07-29T11:09:26Z" finished-at="2019-07-29T11:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MyWorklistTitle()[pri:6, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="MyWorklistTitle" duration-ms="6169" started-at="2019-07-29T11:09:26Z" description="Verify user is able to open the My Worklist" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.PlaceNewOrder" finished-at="2019-07-29T11:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyWorklistTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="72" started-at="2019-07-29T11:09:32Z" finished-at="2019-07-29T11:09:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MyWorklistTitle status=SUCCESS method=CTC_FISHWorklow.MyWorklistTitle()[pri:6, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="18" started-at="2019-07-29T11:09:32Z" finished-at="2019-07-29T11:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CTC_FISH_SummaryReport()[pri:46, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="CTC_FISH_SummaryReport" duration-ms="3" started-at="2019-07-29T11:09:32Z" description="Verify user is able to download CTC-FISH Summary Report" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.PlaceNewOrder" finished-at="2019-07-29T11:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CTC_FISH_SummaryReport -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="95" started-at="2019-07-29T11:09:32Z" finished-at="2019-07-29T11:09:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CTC_FISH_SummaryReport status=SUCCESS method=CTC_FISHWorklow.CTC_FISH_SummaryReport()[pri:46, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="8" started-at="2019-07-29T11:09:32Z" finished-at="2019-07-29T11:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CTC_FISH_ScoreSheet()[pri:47, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="CTC_FISH_ScoreSheet" duration-ms="6" started-at="2019-07-29T11:09:32Z" description="Verify user is able to download CTC-FISH Score Sheet" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.PlaceNewOrder" finished-at="2019-07-29T11:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CTC_FISH_ScoreSheet -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="86" started-at="2019-07-29T11:09:32Z" finished-at="2019-07-29T11:09:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CTC_FISH_ScoreSheet status=SUCCESS method=CTC_FISHWorklow.CTC_FISH_ScoreSheet()[pri:47, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="9" started-at="2019-07-29T11:09:33Z" finished-at="2019-07-29T11:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CTC_FISH_SampleTraveler()[pri:48, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="CTC_FISH_SampleTraveler" duration-ms="3" started-at="2019-07-29T11:09:33Z" description="Verify user is able to download CTC-FISH Sample Traveler" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.PlaceNewOrder" finished-at="2019-07-29T11:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CTC_FISH_SampleTraveler -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="65" started-at="2019-07-29T11:09:33Z" finished-at="2019-07-29T11:09:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CTC_FISH_SampleTraveler status=SUCCESS method=CTC_FISHWorklow.CTC_FISH_SampleTraveler()[pri:48, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="8" started-at="2019-07-29T11:09:33Z" finished-at="2019-07-29T11:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GenerateLongLabel()[pri:49, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="GenerateLongLabel" duration-ms="5" started-at="2019-07-29T11:09:33Z" description="Verify user is able to download Generate Long Label(s)" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.PlaceNewOrder" finished-at="2019-07-29T11:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateLongLabel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="61" started-at="2019-07-29T11:09:33Z" finished-at="2019-07-29T11:09:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GenerateLongLabel status=SUCCESS method=CTC_FISHWorklow.GenerateLongLabel()[pri:49, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="6" started-at="2019-07-29T11:09:33Z" finished-at="2019-07-29T11:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GenerateSmallLabel()[pri:50, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="GenerateSmallLabel" duration-ms="2" started-at="2019-07-29T11:09:33Z" description="Verify user is able to download Generate Small Label" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.PlaceNewOrder" finished-at="2019-07-29T11:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateSmallLabel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="55" started-at="2019-07-29T11:09:33Z" finished-at="2019-07-29T11:09:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GenerateSmallLabel status=SUCCESS method=CTC_FISHWorklow.GenerateSmallLabel()[pri:50, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="5" started-at="2019-07-29T11:09:33Z" finished-at="2019-07-29T11:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GenerateMolecularLabel()[pri:51, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="GenerateMolecularLabel" duration-ms="3" started-at="2019-07-29T11:09:33Z" description="Verify user is able to download Generate Molecular Label" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.PlaceNewOrder" finished-at="2019-07-29T11:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateMolecularLabel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="68" started-at="2019-07-29T11:09:33Z" finished-at="2019-07-29T11:09:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GenerateMolecularLabel status=SUCCESS method=CTC_FISHWorklow.GenerateMolecularLabel()[pri:51, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="6" started-at="2019-07-29T11:09:33Z" finished-at="2019-07-29T11:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AccesstionType()[pri:7, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="AccesstionType" duration-ms="1232" started-at="2019-07-29T11:09:33Z" description="Verify the accession type when user create an accession with Assign Professional Work checkbox selection" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.MyWorklistTitle" finished-at="2019-07-29T11:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccesstionType -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="74" started-at="2019-07-29T11:09:34Z" finished-at="2019-07-29T11:09:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccesstionType status=SUCCESS method=CTC_FISHWorklow.AccesstionType()[pri:7, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="8" started-at="2019-07-29T11:09:34Z" finished-at="2019-07-29T11:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DownloadPlasmaCSV()[pri:52, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="DownloadPlasmaCSV" duration-ms="25" started-at="2019-07-29T11:09:34Z" description="Verify the download functionality for PlasmaCSV" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.MyWorklistTitle" finished-at="2019-07-29T11:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadPlasmaCSV -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="67" started-at="2019-07-29T11:09:34Z" finished-at="2019-07-29T11:09:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DownloadPlasmaCSV status=SUCCESS method=CTC_FISHWorklow.DownloadPlasmaCSV()[pri:52, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="9" started-at="2019-07-29T11:09:34Z" finished-at="2019-07-29T11:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CellCepProcessingActivityTitle()[pri:8, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="CellCepProcessingActivityTitle" duration-ms="21719" started-at="2019-07-29T11:09:34Z" description="Verify user is able to open the Cell Cep Processing Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.AccesstionType" finished-at="2019-07-29T11:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CellCepProcessingActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="41" started-at="2019-07-29T11:09:56Z" finished-at="2019-07-29T11:09:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CellCepProcessingActivityTitle status=SUCCESS method=CTC_FISHWorklow.CellCepProcessingActivityTitle()[pri:8, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="5" started-at="2019-07-29T11:09:56Z" finished-at="2019-07-29T11:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CellCepProcessing()[pri:9, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="CellCepProcessing" duration-ms="13765" started-at="2019-07-29T11:09:56Z" description="Verify user is able to complete the Cell Cep Processing Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.CellCepProcessingActivityTitle" finished-at="2019-07-29T11:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CellCepProcessing -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="55" started-at="2019-07-29T11:10:10Z" finished-at="2019-07-29T11:10:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CellCepProcessing status=SUCCESS method=CTC_FISHWorklow.CellCepProcessing()[pri:9, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="5" started-at="2019-07-29T11:10:10Z" finished-at="2019-07-29T11:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CellSepBatchingActivityTitle()[pri:10, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="CellSepBatchingActivityTitle" duration-ms="6596" started-at="2019-07-29T11:10:10Z" description="Verify user is able to open the Cell Cep Batching Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.CellCepProcessing" finished-at="2019-07-29T11:10:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CellSepBatchingActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="62" started-at="2019-07-29T11:10:16Z" finished-at="2019-07-29T11:10:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CellSepBatchingActivityTitle status=SUCCESS method=CTC_FISHWorklow.CellSepBatchingActivityTitle()[pri:10, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="7" started-at="2019-07-29T11:10:17Z" finished-at="2019-07-29T11:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CellSepBatching()[pri:11, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="CellSepBatching" duration-ms="8319" started-at="2019-07-29T11:10:17Z" description="Verify user is able to complete the Cell Cep Batching Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.CellSepBatchingActivityTitle" finished-at="2019-07-29T11:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CellSepBatching -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="65" started-at="2019-07-29T11:10:25Z" finished-at="2019-07-29T11:10:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CellSepBatching status=SUCCESS method=CTC_FISHWorklow.CellSepBatching()[pri:11, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="7" started-at="2019-07-29T11:10:25Z" finished-at="2019-07-29T11:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MEMSProcessingActivityTitle()[pri:12, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="MEMSProcessingActivityTitle" duration-ms="7020" started-at="2019-07-29T11:10:25Z" description="Verify user is able to open the Mems Processing Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.CellSepBatching" finished-at="2019-07-29T11:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MEMSProcessingActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="70" started-at="2019-07-29T11:10:32Z" finished-at="2019-07-29T11:10:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MEMSProcessingActivityTitle status=SUCCESS method=CTC_FISHWorklow.MEMSProcessingActivityTitle()[pri:12, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="6" started-at="2019-07-29T11:10:32Z" finished-at="2019-07-29T11:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MEMSProcessing()[pri:13, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="MEMSProcessing" duration-ms="5799" started-at="2019-07-29T11:10:32Z" description="Verify user is able to complete the Mems Processing Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.MEMSProcessingActivityTitle" finished-at="2019-07-29T11:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MEMSProcessing -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="58" started-at="2019-07-29T11:10:38Z" finished-at="2019-07-29T11:10:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MEMSProcessing status=SUCCESS method=CTC_FISHWorklow.MEMSProcessing()[pri:13, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="6" started-at="2019-07-29T11:10:38Z" finished-at="2019-07-29T11:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MemsBatchingActivityTitle()[pri:14, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="MemsBatchingActivityTitle" duration-ms="6732" started-at="2019-07-29T11:10:38Z" description="Verify user is able to open the Mems Batching Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.MEMSProcessing" finished-at="2019-07-29T11:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MemsBatchingActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="62" started-at="2019-07-29T11:10:45Z" finished-at="2019-07-29T11:10:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MemsBatchingActivityTitle status=SUCCESS method=CTC_FISHWorklow.MemsBatchingActivityTitle()[pri:14, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="7" started-at="2019-07-29T11:10:45Z" finished-at="2019-07-29T11:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MemsBatching()[pri:15, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="MemsBatching" duration-ms="6360" started-at="2019-07-29T11:10:45Z" description="Verify user is able to complete the Mems Batching Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.MemsBatchingActivityTitle" finished-at="2019-07-29T11:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MemsBatching -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="57" started-at="2019-07-29T11:10:51Z" finished-at="2019-07-29T11:10:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MemsBatching status=SUCCESS method=CTC_FISHWorklow.MemsBatching()[pri:15, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="7" started-at="2019-07-29T11:10:51Z" finished-at="2019-07-29T11:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BioviewScanDataActivityTitle()[pri:16, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="BioviewScanDataActivityTitle" duration-ms="6542" started-at="2019-07-29T11:10:51Z" description="Verify user is able to open the Bioview Scan Data Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.MemsBatching" finished-at="2019-07-29T11:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BioviewScanDataActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="50" started-at="2019-07-29T11:10:58Z" finished-at="2019-07-29T11:10:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BioviewScanDataActivityTitle status=SUCCESS method=CTC_FISHWorklow.BioviewScanDataActivityTitle()[pri:16, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="5" started-at="2019-07-29T11:10:58Z" finished-at="2019-07-29T11:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BioviewScanData()[pri:17, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="BioviewScanData" duration-ms="7328" started-at="2019-07-29T11:10:58Z" description="Verify user is able to complete the Bioview Scan Data Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.BioviewScanDataActivityTitle" finished-at="2019-07-29T11:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BioviewScanData -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="61" started-at="2019-07-29T11:11:05Z" finished-at="2019-07-29T11:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BioviewScanData status=SUCCESS method=CTC_FISHWorklow.BioviewScanData()[pri:17, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="7" started-at="2019-07-29T11:11:05Z" finished-at="2019-07-29T11:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EnumerationImageReviewActivityTitle()[pri:18, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="EnumerationImageReviewActivityTitle" duration-ms="6877" started-at="2019-07-29T11:11:05Z" description="Verify user is able to open the Enumeration Image Review Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.BioviewScanData" finished-at="2019-07-29T11:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnumerationImageReviewActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="45" started-at="2019-07-29T11:11:12Z" finished-at="2019-07-29T11:11:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EnumerationImageReviewActivityTitle status=SUCCESS method=CTC_FISHWorklow.EnumerationImageReviewActivityTitle()[pri:18, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="9" started-at="2019-07-29T11:11:12Z" finished-at="2019-07-29T11:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EnumerationImageReview()[pri:19, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="EnumerationImageReview" duration-ms="22666" started-at="2019-07-29T11:11:12Z" description="Verify user is able to complete the Enumeration Image Review Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.EnumerationImageReviewActivityTitle" finished-at="2019-07-29T11:11:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnumerationImageReview -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="54" started-at="2019-07-29T11:11:35Z" finished-at="2019-07-29T11:11:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EnumerationImageReview status=SUCCESS method=CTC_FISHWorklow.EnumerationImageReview()[pri:19, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="4" started-at="2019-07-29T11:11:35Z" finished-at="2019-07-29T11:11:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CTCICCResultsSummaryActivityTitle()[pri:20, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="CTCICCResultsSummaryActivityTitle" duration-ms="6967" started-at="2019-07-29T11:11:35Z" description="Verify user is able to open the CTC ICC Results Summary Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.EnumerationImageReview" finished-at="2019-07-29T11:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CTCICCResultsSummaryActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="46" started-at="2019-07-29T11:11:42Z" finished-at="2019-07-29T11:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CTCICCResultsSummaryActivityTitle status=SUCCESS method=CTC_FISHWorklow.CTCICCResultsSummaryActivityTitle()[pri:20, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="5" started-at="2019-07-29T11:11:42Z" finished-at="2019-07-29T11:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CTCICCResultsSummary()[pri:21, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="CTCICCResultsSummary" duration-ms="8789" started-at="2019-07-29T11:11:42Z" description="Verify user is able to complete the CTC ICC Results Summary Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.CTCICCResultsSummaryActivityTitle" finished-at="2019-07-29T11:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CTCICCResultsSummary -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="52" started-at="2019-07-29T11:11:51Z" finished-at="2019-07-29T11:11:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CTCICCResultsSummary status=SUCCESS method=CTC_FISHWorklow.CTCICCResultsSummary()[pri:21, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="5" started-at="2019-07-29T11:11:51Z" finished-at="2019-07-29T11:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FISHAutobatchedworklistActivityTitle()[pri:22, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="FISHAutobatchedworklistActivityTitle" duration-ms="6795" started-at="2019-07-29T11:11:51Z" description="Verify user is able to open the FISH Auto batched worklist Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.CTCICCResultsSummary" finished-at="2019-07-29T11:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FISHAutobatchedworklistActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="54" started-at="2019-07-29T11:11:57Z" finished-at="2019-07-29T11:11:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FISHAutobatchedworklistActivityTitle status=SUCCESS method=CTC_FISHWorklow.FISHAutobatchedworklistActivityTitle()[pri:22, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="5" started-at="2019-07-29T11:11:57Z" finished-at="2019-07-29T11:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FISHAutobatchedworklist()[pri:23, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="FISHAutobatchedworklist" duration-ms="8291" started-at="2019-07-29T11:11:57Z" description="Verify user is able to complete the FISH Auto batched worklist Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.FISHAutobatchedworklistActivityTitle" finished-at="2019-07-29T11:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FISHAutobatchedworklist -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="43" started-at="2019-07-29T11:12:06Z" finished-at="2019-07-29T11:12:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FISHAutobatchedworklist status=SUCCESS method=CTC_FISHWorklow.FISHAutobatchedworklist()[pri:23, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="5" started-at="2019-07-29T11:12:06Z" finished-at="2019-07-29T11:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FISHReloAnalysisActivityTitle()[pri:24, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="FISHReloAnalysisActivityTitle" duration-ms="7287" started-at="2019-07-29T11:12:06Z" description="Verify user is able to open the FISH Relo Analysis Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.FISHAutobatchedworklist" finished-at="2019-07-29T11:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FISHReloAnalysisActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="55" started-at="2019-07-29T11:12:13Z" finished-at="2019-07-29T11:12:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FISHReloAnalysisActivityTitle status=SUCCESS method=CTC_FISHWorklow.FISHReloAnalysisActivityTitle()[pri:24, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="6" started-at="2019-07-29T11:12:13Z" finished-at="2019-07-29T11:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FISHReloAnalysis()[pri:25, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="FISHReloAnalysis" duration-ms="7266" started-at="2019-07-29T11:12:13Z" description="Verify user is able to complete the FISH Relo Analysis Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.FISHReloAnalysisActivityTitle" finished-at="2019-07-29T11:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FISHReloAnalysis -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="45" started-at="2019-07-29T11:12:20Z" finished-at="2019-07-29T11:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FISHReloAnalysis status=SUCCESS method=CTC_FISHWorklow.FISHReloAnalysis()[pri:25, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="4" started-at="2019-07-29T11:12:20Z" finished-at="2019-07-29T11:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FISHResultsSummaryActivityTitle()[pri:26, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="FISHResultsSummaryActivityTitle" duration-ms="12914" started-at="2019-07-29T11:12:20Z" description="Verify user is able to open the FISH Results Summary Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.FISHReloAnalysis" finished-at="2019-07-29T11:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FISHResultsSummaryActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="43" started-at="2019-07-29T11:12:33Z" finished-at="2019-07-29T11:12:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FISHResultsSummaryActivityTitle status=SUCCESS method=CTC_FISHWorklow.FISHResultsSummaryActivityTitle()[pri:26, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="6" started-at="2019-07-29T11:12:33Z" finished-at="2019-07-29T11:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FISHResultsSummary()[pri:27, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="FISHResultsSummary" duration-ms="9623" started-at="2019-07-29T11:12:33Z" description="Verify user is able to complete the FISH Results Summary Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.FISHResultsSummaryActivityTitle" finished-at="2019-07-29T11:12:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FISHResultsSummary -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="54" started-at="2019-07-29T11:12:43Z" finished-at="2019-07-29T11:12:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FISHResultsSummary status=SUCCESS method=CTC_FISHWorklow.FISHResultsSummary()[pri:27, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="6" started-at="2019-07-29T11:12:43Z" finished-at="2019-07-29T11:12:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PIActivityTitle()[pri:28, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="PIActivityTitle" duration-ms="7485" started-at="2019-07-29T11:12:43Z" description="Verify user is able to open the TechOnly Professional Interpretation Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.FISHResultsSummary" finished-at="2019-07-29T11:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PIActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="46" started-at="2019-07-29T11:12:51Z" finished-at="2019-07-29T11:12:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PIActivityTitle status=SUCCESS method=CTC_FISHWorklow.PIActivityTitle()[pri:28, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="5" started-at="2019-07-29T11:12:51Z" finished-at="2019-07-29T11:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="QC_CompleteButtonOnProfessionalInterpretation()[pri:29, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="QC_CompleteButtonOnProfessionalInterpretation" duration-ms="25101" started-at="2019-07-29T11:12:51Z" description="Verify the QC CompleteButton button on Professional Interpretation page" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.PIActivityTitle" finished-at="2019-07-29T11:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QC_CompleteButtonOnProfessionalInterpretation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="51" started-at="2019-07-29T11:13:16Z" finished-at="2019-07-29T11:13:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=QC_CompleteButtonOnProfessionalInterpretation status=SUCCESS method=CTC_FISHWorklow.QC_CompleteButtonOnProfessionalInterpretation()[pri:29, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="9" started-at="2019-07-29T11:13:16Z" finished-at="2019-07-29T11:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ConfirmationOnTechOnlyPI()[pri:30, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="ConfirmationOnTechOnlyPI" duration-ms="1335" started-at="2019-07-29T11:13:16Z" description="Verify the confirmation message when user clicks on QC complete button" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.QC_CompleteButtonOnProfessionalInterpretation" finished-at="2019-07-29T11:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmationOnTechOnlyPI -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="44" started-at="2019-07-29T11:13:17Z" finished-at="2019-07-29T11:13:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConfirmationOnTechOnlyPI status=SUCCESS method=CTC_FISHWorklow.ConfirmationOnTechOnlyPI()[pri:30, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="6" started-at="2019-07-29T11:13:17Z" finished-at="2019-07-29T11:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="QCComplete()[pri:31, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="QCComplete" duration-ms="5569" started-at="2019-07-29T11:13:17Z" description="Verify user is able to QC Complete the PI Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.ConfirmationOnTechOnlyPI" finished-at="2019-07-29T11:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QCComplete -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="63" started-at="2019-07-29T11:13:23Z" finished-at="2019-07-29T11:13:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=QCComplete status=SUCCESS method=CTC_FISHWorklow.QCComplete()[pri:31, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="5" started-at="2019-07-29T11:13:23Z" finished-at="2019-07-29T11:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PhysicianPortalLogin()[pri:32, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="PhysicianPortalLogin" duration-ms="14090" started-at="2019-07-29T11:13:23Z" description="Verify user is able to login in Physician Portal" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.QCComplete" finished-at="2019-07-29T11:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhysicianPortalLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="47" started-at="2019-07-29T11:13:37Z" finished-at="2019-07-29T11:13:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PhysicianPortalLogin status=SUCCESS method=CTC_FISHWorklow.PhysicianPortalLogin()[pri:32, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="4" started-at="2019-07-29T11:13:37Z" finished-at="2019-07-29T11:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="OrderHistoryWorklist()[pri:33, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="OrderHistoryWorklist" duration-ms="9273" started-at="2019-07-29T11:13:37Z" description="Verify Tech Only Professional Interpretation Button on Order History Worklist" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.PhysicianPortalLogin" finished-at="2019-07-29T11:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryWorklist -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="53" started-at="2019-07-29T11:13:46Z" finished-at="2019-07-29T11:13:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrderHistoryWorklist status=SUCCESS method=CTC_FISHWorklow.OrderHistoryWorklist()[pri:33, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="6" started-at="2019-07-29T11:13:46Z" finished-at="2019-07-29T11:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GoBacktoPhysicianPortalButton()[pri:34, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="GoBacktoPhysicianPortalButton" duration-ms="5520" started-at="2019-07-29T11:13:46Z" description="Verify Go Back to Physician Portal Button on Tech Only Professional Interpretation page." depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.OrderHistoryWorklist" finished-at="2019-07-29T11:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoBacktoPhysicianPortalButton -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="50" started-at="2019-07-29T11:13:52Z" finished-at="2019-07-29T11:13:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoBacktoPhysicianPortalButton status=SUCCESS method=CTC_FISHWorklow.GoBacktoPhysicianPortalButton()[pri:34, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="5" started-at="2019-07-29T11:13:52Z" finished-at="2019-07-29T11:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignoffReportFromPhysicianPortal()[pri:35, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="SignoffReportFromPhysicianPortal" duration-ms="47008" started-at="2019-07-29T11:13:52Z" description="Verify user is able to signoff the report from Physician Portal." depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.GoBacktoPhysicianPortalButton" finished-at="2019-07-29T11:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignoffReportFromPhysicianPortal -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="64" started-at="2019-07-29T11:14:39Z" finished-at="2019-07-29T11:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignoffReportFromPhysicianPortal status=SUCCESS method=CTC_FISHWorklow.SignoffReportFromPhysicianPortal()[pri:35, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="4" started-at="2019-07-29T11:14:39Z" finished-at="2019-07-29T11:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CompletedWorklist()[pri:36, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="CompletedWorklist" duration-ms="11240" started-at="2019-07-29T11:14:39Z" description="Verify user is able to open the Completed Worklist" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.SignoffReportFromPhysicianPortal" finished-at="2019-07-29T11:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompletedWorklist -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="43" started-at="2019-07-29T11:14:50Z" finished-at="2019-07-29T11:14:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CompletedWorklist status=SUCCESS method=CTC_FISHWorklow.CompletedWorklist()[pri:36, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="3" started-at="2019-07-29T11:14:50Z" finished-at="2019-07-29T11:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AssignProfessionalWorkToBiocept()[pri:37, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="AssignProfessionalWorkToBiocept" duration-ms="16015" started-at="2019-07-29T11:14:50Z" description="Verify user is able to assign Professional Work To Biocept from edit accession" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.CompletedWorklist" finished-at="2019-07-29T11:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssignProfessionalWorkToBiocept -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="47" started-at="2019-07-29T11:15:06Z" finished-at="2019-07-29T11:15:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AssignProfessionalWorkToBiocept status=SUCCESS method=CTC_FISHWorklow.AssignProfessionalWorkToBiocept()[pri:37, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="4" started-at="2019-07-29T11:15:06Z" finished-at="2019-07-29T11:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ReopenConfirmationPopupOnCompletedWorklist()[pri:38, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="ReopenConfirmationPopupOnCompletedWorklist" duration-ms="7427" started-at="2019-07-29T11:15:06Z" description="Verify the functionality when user tries to reopen the case from completed worklist" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.AssignProfessionalWorkToBiocept" finished-at="2019-07-29T11:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReopenConfirmationPopupOnCompletedWorklist -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="51" started-at="2019-07-29T11:15:14Z" finished-at="2019-07-29T11:15:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ReopenConfirmationPopupOnCompletedWorklist status=SUCCESS method=CTC_FISHWorklow.ReopenConfirmationPopupOnCompletedWorklist()[pri:38, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="5" started-at="2019-07-29T11:15:14Z" finished-at="2019-07-29T11:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ActivityTitleAfterReOpen()[pri:39, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="ActivityTitleAfterReOpen" duration-ms="1656" started-at="2019-07-29T11:15:14Z" description="Verify the activity after reopen the case from completed worklist" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.ReopenConfirmationPopupOnCompletedWorklist" finished-at="2019-07-29T11:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ActivityTitleAfterReOpen -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="54" started-at="2019-07-29T11:15:15Z" finished-at="2019-07-29T11:15:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ActivityTitleAfterReOpen status=SUCCESS method=CTC_FISHWorklow.ActivityTitleAfterReOpen()[pri:39, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="6" started-at="2019-07-29T11:15:16Z" finished-at="2019-07-29T11:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TechOnlyProfessionalInterpretation()[pri:40, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="TechOnlyProfessionalInterpretation" duration-ms="18018" started-at="2019-07-29T11:15:16Z" description="Verify user is able to complete the PI Activity" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.ActivityTitleAfterReOpen" finished-at="2019-07-29T11:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TechOnlyProfessionalInterpretation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="52" started-at="2019-07-29T11:15:34Z" finished-at="2019-07-29T11:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TechOnlyProfessionalInterpretation status=SUCCESS method=CTC_FISHWorklow.TechOnlyProfessionalInterpretation()[pri:40, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="3" started-at="2019-07-29T11:15:34Z" finished-at="2019-07-29T11:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="QAReportingWorklistTitle()[pri:41, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="QAReportingWorklistTitle" duration-ms="5325" started-at="2019-07-29T11:15:34Z" description="Verify user is able to open the QA Reporting Worklist" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.TechOnlyProfessionalInterpretation" finished-at="2019-07-29T11:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QAReportingWorklistTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="51" started-at="2019-07-29T11:15:39Z" finished-at="2019-07-29T11:15:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=QAReportingWorklistTitle status=SUCCESS method=CTC_FISHWorklow.QAReportingWorklistTitle()[pri:41, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="5" started-at="2019-07-29T11:15:39Z" finished-at="2019-07-29T11:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="QAReportingWorklist()[pri:42, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="QAReportingWorklist" duration-ms="19170" started-at="2019-07-29T11:15:39Z" description="Verify user is able to complete the QA Reporting" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.QAReportingWorklistTitle" finished-at="2019-07-29T11:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QAReportingWorklist -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="68" started-at="2019-07-29T11:15:58Z" finished-at="2019-07-29T11:15:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=QAReportingWorklist status=SUCCESS method=CTC_FISHWorklow.QAReportingWorklist()[pri:42, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="7" started-at="2019-07-29T11:15:58Z" finished-at="2019-07-29T11:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FishReviewApproveTitle()[pri:43, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="FishReviewApproveTitle" duration-ms="4995" started-at="2019-07-29T11:15:58Z" description="Verify user is able to open FISH Review &amp; Approve Worklist" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.QAReportingWorklist" finished-at="2019-07-29T11:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FishReviewApproveTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="40" started-at="2019-07-29T11:16:03Z" finished-at="2019-07-29T11:16:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FishReviewApproveTitle status=SUCCESS method=CTC_FISHWorklow.FishReviewApproveTitle()[pri:43, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="8" started-at="2019-07-29T11:16:03Z" finished-at="2019-07-29T11:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ReportVersionSelectionPopUp()[pri:44, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="ReportVersionSelectionPopUp" duration-ms="14458" started-at="2019-07-29T11:16:03Z" description="Verify the functionality when user tries to signoff the report again" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.FishReviewApproveTitle" finished-at="2019-07-29T11:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportVersionSelectionPopUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="45" started-at="2019-07-29T11:16:18Z" finished-at="2019-07-29T11:16:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ReportVersionSelectionPopUp status=SUCCESS method=CTC_FISHWorklow.ReportVersionSelectionPopUp()[pri:44, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="setup" is-config="true" duration-ms="4" started-at="2019-07-29T11:16:18Z" finished-at="2019-07-29T11:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignoffTheReportForNewVersion()[pri:45, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="SignoffTheReportForNewVersion" duration-ms="14386" started-at="2019-07-29T11:16:18Z" description="Verify user is able to create a new version of report" depends-on-methods="biocept.qa.testcases.CTC_FISHWorklow.ReportVersionSelectionPopUp" finished-at="2019-07-29T11:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignoffTheReportForNewVersion -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="getResult" is-config="true" duration-ms="63" started-at="2019-07-29T11:16:32Z" finished-at="2019-07-29T11:16:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignoffTheReportForNewVersion status=SUCCESS method=CTC_FISHWorklow.SignoffTheReportForNewVersion()[pri:45, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:biocept.qa.testcases.CTC_FISHWorklow@6c3708b3]" name="LogOut" is-config="true" duration-ms="3454" started-at="2019-07-29T11:16:32Z" finished-at="2019-07-29T11:16:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+      </class> <!-- biocept.qa.testcases.CTC_FISHWorklow -->
+      <class name="biocept.qa.testcases.BioceptTestBase">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:biocept.qa.testcases.BioceptTestBase@3e9b1010]" name="beforeTest" is-config="true" duration-ms="5207" started-at="2019-07-29T11:06:10Z" finished-at="2019-07-29T11:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- biocept.qa.testcases.BioceptTestBase -->
+    </test> <!-- CTC-FISH Workflow for Global Cases -->
+    <test name="Molecular Workflow" duration-ms="452994" started-at="2019-07-29T05:46:36Z" finished-at="2019-07-29T05:54:09Z">
+      <class name="biocept.qa.testcases.TestConfig">
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="88" started-at="2019-07-29T11:16:36Z" finished-at="2019-07-29T11:16:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PlaceNewOrderForMolecular()[pri:1, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="PlaceNewOrderForMolecular" duration-ms="72565" started-at="2019-07-29T11:16:36Z" description="Verify user is able to create a new accession for Molecular Test" finished-at="2019-07-29T11:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceNewOrderForMolecular -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="59" started-at="2019-07-29T11:17:48Z" finished-at="2019-07-29T11:17:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PlaceNewOrderForMolecular status=SUCCESS method=TestConfig.PlaceNewOrderForMolecular()[pri:1, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="2" started-at="2019-07-29T11:17:49Z" finished-at="2019-07-29T11:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="UploadMacroFile()[pri:2, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="UploadMacroFile" duration-ms="4110" started-at="2019-07-29T11:17:49Z" description="Verify user is able to open the upload Macro File page" depends-on-methods="biocept.qa.testcases.TestConfig.PlaceNewOrderForMolecular" finished-at="2019-07-29T11:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadMacroFile -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="46" started-at="2019-07-29T11:17:53Z" finished-at="2019-07-29T11:17:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UploadMacroFile status=SUCCESS method=TestConfig.UploadMacroFile()[pri:2, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="2" started-at="2019-07-29T11:17:53Z" finished-at="2019-07-29T11:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NGS_PIActivityTitle()[pri:3, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="NGS_PIActivityTitle" duration-ms="11979" started-at="2019-07-29T11:17:53Z" description="Verify user is able to open the NGS Professional Interpretation Activity" depends-on-methods="biocept.qa.testcases.TestConfig.UploadMacroFile" finished-at="2019-07-29T11:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NGS_PIActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="67" started-at="2019-07-29T11:18:05Z" finished-at="2019-07-29T11:18:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NGS_PIActivityTitle status=SUCCESS method=TestConfig.NGS_PIActivityTitle()[pri:3, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="7" started-at="2019-07-29T11:18:05Z" finished-at="2019-07-29T11:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="UploadNGSFile()[pri:4, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="UploadNGSFile" duration-ms="26786" started-at="2019-07-29T11:18:05Z" description="Verify user is able to upload the pdf file." depends-on-methods="biocept.qa.testcases.TestConfig.NGS_PIActivityTitle" finished-at="2019-07-29T11:18:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadNGSFile -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="47" started-at="2019-07-29T11:18:32Z" finished-at="2019-07-29T11:18:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UploadNGSFile status=SUCCESS method=TestConfig.UploadNGSFile()[pri:4, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="2" started-at="2019-07-29T11:18:32Z" finished-at="2019-07-29T11:18:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NRASResultingActivityTitle()[pri:5, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="NRASResultingActivityTitle" duration-ms="32923" started-at="2019-07-29T11:18:32Z" description="Verify user is able to open the NRAS Molecular Generic Resulting Activity" depends-on-methods="biocept.qa.testcases.TestConfig.UploadNGSFile" finished-at="2019-07-29T11:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NRASResultingActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="77" started-at="2019-07-29T11:19:04Z" finished-at="2019-07-29T11:19:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NRASResultingActivityTitle status=SUCCESS method=TestConfig.NRASResultingActivityTitle()[pri:5, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="2" started-at="2019-07-29T11:19:05Z" finished-at="2019-07-29T11:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NRASResultingUpdateResult()[pri:6, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="NRASResultingUpdateResult" duration-ms="5113" started-at="2019-07-29T11:19:05Z" description="Verify user is able to complete the NRAS Molecular Generic Resulting activity" depends-on-methods="biocept.qa.testcases.TestConfig.NRASResultingActivityTitle" finished-at="2019-07-29T11:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NRASResultingUpdateResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="43" started-at="2019-07-29T11:19:10Z" finished-at="2019-07-29T11:19:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NRASResultingUpdateResult status=SUCCESS method=TestConfig.NRASResultingUpdateResult()[pri:6, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="2" started-at="2019-07-29T11:19:10Z" finished-at="2019-07-29T11:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NRASPIActivityTitle()[pri:7, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="NRASPIActivityTitle" duration-ms="7711" started-at="2019-07-29T11:19:10Z" description="Verify user is able to open NRAS Molecular Professional Interpretation activity" depends-on-methods="biocept.qa.testcases.TestConfig.NRASResultingUpdateResult" finished-at="2019-07-29T11:19:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NRASPIActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="55" started-at="2019-07-29T11:19:17Z" finished-at="2019-07-29T11:19:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NRASPIActivityTitle status=SUCCESS method=TestConfig.NRASPIActivityTitle()[pri:7, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="3" started-at="2019-07-29T11:19:17Z" finished-at="2019-07-29T11:19:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NRASPIActivityResult()[pri:8, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="NRASPIActivityResult" duration-ms="9706" started-at="2019-07-29T11:19:17Z" description="Verify user is able to complete the NRAS Molecular Professional Interpretation activity" depends-on-methods="biocept.qa.testcases.TestConfig.NRASPIActivityTitle" finished-at="2019-07-29T11:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NRASPIActivityResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="59" started-at="2019-07-29T11:19:27Z" finished-at="2019-07-29T11:19:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NRASPIActivityResult status=SUCCESS method=TestConfig.NRASPIActivityResult()[pri:8, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="4" started-at="2019-07-29T11:19:27Z" finished-at="2019-07-29T11:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NRASReportSignoff()[pri:9, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="NRASReportSignoff" duration-ms="19997" started-at="2019-07-29T11:19:27Z" description="Verify user is able to Signoff the NRAS Test Report from Molecular Review &amp; Approve Worklist" depends-on-methods="biocept.qa.testcases.TestConfig.NRASPIActivityResult" finished-at="2019-07-29T11:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NRASReportSignoff -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="48" started-at="2019-07-29T11:19:47Z" finished-at="2019-07-29T11:19:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NRASReportSignoff status=SUCCESS method=TestConfig.NRASReportSignoff()[pri:9, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="3" started-at="2019-07-29T11:19:47Z" finished-at="2019-07-29T11:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BRAFResultingActivityTitle()[pri:10, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="BRAFResultingActivityTitle" duration-ms="7843" started-at="2019-07-29T11:19:47Z" description="Verify user is able to open the BRAF Molecular Generic Resulting Activity" depends-on-methods="biocept.qa.testcases.TestConfig.NRASReportSignoff" finished-at="2019-07-29T11:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BRAFResultingActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="47" started-at="2019-07-29T11:19:55Z" finished-at="2019-07-29T11:19:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BRAFResultingActivityTitle status=SUCCESS method=TestConfig.BRAFResultingActivityTitle()[pri:10, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="2" started-at="2019-07-29T11:19:55Z" finished-at="2019-07-29T11:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BRAFResultingUpdateResult()[pri:11, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="BRAFResultingUpdateResult" duration-ms="6948" started-at="2019-07-29T11:19:55Z" description="Verify user is able to complete the BRAF Molecular Generic Resulting activity" depends-on-methods="biocept.qa.testcases.TestConfig.BRAFResultingActivityTitle" finished-at="2019-07-29T11:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BRAFResultingUpdateResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="79" started-at="2019-07-29T11:20:02Z" finished-at="2019-07-29T11:20:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BRAFResultingUpdateResult status=SUCCESS method=TestConfig.BRAFResultingUpdateResult()[pri:11, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="4" started-at="2019-07-29T11:20:02Z" finished-at="2019-07-29T11:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="UploadSequenceImagesForBRAF()[pri:12, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="UploadSequenceImagesForBRAF" duration-ms="54318" started-at="2019-07-29T11:20:02Z" description="Verify user is able to upload the Sequence image for BRAF" depends-on-methods="biocept.qa.testcases.TestConfig.BRAFResultingUpdateResult" finished-at="2019-07-29T11:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadSequenceImagesForBRAF -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="63" started-at="2019-07-29T11:20:57Z" finished-at="2019-07-29T11:20:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UploadSequenceImagesForBRAF status=SUCCESS method=TestConfig.UploadSequenceImagesForBRAF()[pri:12, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="3" started-at="2019-07-29T11:20:57Z" finished-at="2019-07-29T11:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BRAFSequencingActivityTitle()[pri:13, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="BRAFSequencingActivityTitle" duration-ms="10919" started-at="2019-07-29T11:20:57Z" description="Verify user is able to open BRAF Sequencing activity" depends-on-methods="biocept.qa.testcases.TestConfig.UploadSequenceImagesForBRAF" finished-at="2019-07-29T11:21:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BRAFSequencingActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="57" started-at="2019-07-29T11:21:08Z" finished-at="2019-07-29T11:21:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BRAFSequencingActivityTitle status=SUCCESS method=TestConfig.BRAFSequencingActivityTitle()[pri:13, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="7" started-at="2019-07-29T11:21:08Z" finished-at="2019-07-29T11:21:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BRAFSequencingActivityResult()[pri:14, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="BRAFSequencingActivityResult" duration-ms="5467" started-at="2019-07-29T11:21:08Z" description="Verify user is able to complete the BRAF Sequencing activity" depends-on-methods="biocept.qa.testcases.TestConfig.BRAFSequencingActivityTitle" finished-at="2019-07-29T11:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BRAFSequencingActivityResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="50" started-at="2019-07-29T11:21:13Z" finished-at="2019-07-29T11:21:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BRAFSequencingActivityResult status=SUCCESS method=TestConfig.BRAFSequencingActivityResult()[pri:14, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="2" started-at="2019-07-29T11:21:13Z" finished-at="2019-07-29T11:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BRAFPIActivityTitle()[pri:15, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="BRAFPIActivityTitle" duration-ms="7592" started-at="2019-07-29T11:21:13Z" description="Verify user is able to open BRAF Molecular Professional Interpretation activity" depends-on-methods="biocept.qa.testcases.TestConfig.BRAFSequencingActivityResult" finished-at="2019-07-29T11:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BRAFPIActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="59" started-at="2019-07-29T11:21:21Z" finished-at="2019-07-29T11:21:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BRAFPIActivityTitle status=SUCCESS method=TestConfig.BRAFPIActivityTitle()[pri:15, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="6" started-at="2019-07-29T11:21:21Z" finished-at="2019-07-29T11:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BRAFPIActivityResult()[pri:16, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="BRAFPIActivityResult" duration-ms="7492" started-at="2019-07-29T11:21:21Z" description="Verify user is able to complete the BRAF Molecular Professional Interpretation activity" depends-on-methods="biocept.qa.testcases.TestConfig.BRAFPIActivityTitle" finished-at="2019-07-29T11:21:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BRAFPIActivityResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="65" started-at="2019-07-29T11:21:28Z" finished-at="2019-07-29T11:21:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BRAFPIActivityResult status=SUCCESS method=TestConfig.BRAFPIActivityResult()[pri:16, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="2" started-at="2019-07-29T11:21:28Z" finished-at="2019-07-29T11:21:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BRAFReportSignoff()[pri:17, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="BRAFReportSignoff" duration-ms="19420" started-at="2019-07-29T11:21:28Z" description="Verify user is able to Signoff the BRAF Test Report from Molecular Review &amp; Approve Worklist" depends-on-methods="biocept.qa.testcases.TestConfig.BRAFPIActivityResult" finished-at="2019-07-29T11:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BRAFReportSignoff -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="49" started-at="2019-07-29T11:21:48Z" finished-at="2019-07-29T11:21:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BRAFReportSignoff status=SUCCESS method=TestConfig.BRAFReportSignoff()[pri:17, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="2" started-at="2019-07-29T11:21:48Z" finished-at="2019-07-29T11:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="KRASResultingActivityTitle()[pri:18, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="KRASResultingActivityTitle" duration-ms="8127" started-at="2019-07-29T11:21:48Z" description="Verify user is able to open the KRAS Molecular Generic Resulting activity" depends-on-methods="biocept.qa.testcases.TestConfig.BRAFReportSignoff" finished-at="2019-07-29T11:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KRASResultingActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="57" started-at="2019-07-29T11:21:56Z" finished-at="2019-07-29T11:21:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=KRASResultingActivityTitle status=SUCCESS method=TestConfig.KRASResultingActivityTitle()[pri:18, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="3" started-at="2019-07-29T11:21:56Z" finished-at="2019-07-29T11:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="KRASResultingUpdateResult()[pri:19, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="KRASResultingUpdateResult" duration-ms="6192" started-at="2019-07-29T11:21:56Z" description="Verify user is able to complete the KRAS Molecular Generic Resulting activity" depends-on-methods="biocept.qa.testcases.TestConfig.KRASResultingActivityTitle" finished-at="2019-07-29T11:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KRASResultingUpdateResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="66" started-at="2019-07-29T11:22:02Z" finished-at="2019-07-29T11:22:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=KRASResultingUpdateResult status=SUCCESS method=TestConfig.KRASResultingUpdateResult()[pri:19, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="3" started-at="2019-07-29T11:22:02Z" finished-at="2019-07-29T11:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="UploadSequenceImagesForKRAS()[pri:20, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="UploadSequenceImagesForKRAS" duration-ms="55403" started-at="2019-07-29T11:22:02Z" description="Verify user is able to upload the Sequence imagefor KRAS" depends-on-methods="biocept.qa.testcases.TestConfig.KRASResultingUpdateResult" finished-at="2019-07-29T11:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadSequenceImagesForKRAS -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="75" started-at="2019-07-29T11:22:58Z" finished-at="2019-07-29T11:22:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UploadSequenceImagesForKRAS status=SUCCESS method=TestConfig.UploadSequenceImagesForKRAS()[pri:20, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="2" started-at="2019-07-29T11:22:58Z" finished-at="2019-07-29T11:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="KRASSequencingActivityTitle()[pri:19, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="KRASSequencingActivityTitle" duration-ms="10487" started-at="2019-07-29T11:22:58Z" description="Verify user is able to open KRAS Sequencing activity" depends-on-methods="biocept.qa.testcases.TestConfig.UploadSequenceImagesForKRAS" finished-at="2019-07-29T11:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KRASSequencingActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="59" started-at="2019-07-29T11:23:08Z" finished-at="2019-07-29T11:23:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=KRASSequencingActivityTitle status=SUCCESS method=TestConfig.KRASSequencingActivityTitle()[pri:19, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="2" started-at="2019-07-29T11:23:08Z" finished-at="2019-07-29T11:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="KRASSequencingActivityResult()[pri:20, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="KRASSequencingActivityResult" duration-ms="10727" started-at="2019-07-29T11:23:08Z" description="Verify user is able to complete the KRAS Sequencing activity" depends-on-methods="biocept.qa.testcases.TestConfig.KRASSequencingActivityTitle" finished-at="2019-07-29T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KRASSequencingActivityResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="54" started-at="2019-07-29T11:23:19Z" finished-at="2019-07-29T11:23:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=KRASSequencingActivityResult status=SUCCESS method=TestConfig.KRASSequencingActivityResult()[pri:20, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="3" started-at="2019-07-29T11:23:19Z" finished-at="2019-07-29T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="KRASPIActivityTitle()[pri:21, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="KRASPIActivityTitle" duration-ms="9779" started-at="2019-07-29T11:23:19Z" description="Verify user is able to open KRAS Molecular Professional Interpretation activity" depends-on-methods="biocept.qa.testcases.TestConfig.KRASSequencingActivityResult" finished-at="2019-07-29T11:23:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KRASPIActivityTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="53" started-at="2019-07-29T11:23:29Z" finished-at="2019-07-29T11:23:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=KRASPIActivityTitle status=SUCCESS method=TestConfig.KRASPIActivityTitle()[pri:21, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="0" started-at="2019-07-29T11:23:29Z" finished-at="2019-07-29T11:23:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="KRASPIActivityResult()[pri:22, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="KRASPIActivityResult" duration-ms="11940" started-at="2019-07-29T11:23:29Z" description="Verify user is able to complete the KRAS Molecular Professional Interpretation activity" depends-on-methods="biocept.qa.testcases.TestConfig.KRASPIActivityTitle" finished-at="2019-07-29T11:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KRASPIActivityResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="57" started-at="2019-07-29T11:23:41Z" finished-at="2019-07-29T11:23:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=KRASPIActivityResult status=SUCCESS method=TestConfig.KRASPIActivityResult()[pri:22, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="setup" is-config="true" duration-ms="5" started-at="2019-07-29T11:23:41Z" finished-at="2019-07-29T11:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="KRASReportSignoff()[pri:23, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="KRASReportSignoff" duration-ms="26813" started-at="2019-07-29T11:23:41Z" description="Verify user is able to Signoff the KRAS Test Report from Molecular Review &amp; Approve Worklist" depends-on-methods="biocept.qa.testcases.TestConfig.KRASPIActivityResult" finished-at="2019-07-29T11:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KRASReportSignoff -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="getResult" is-config="true" duration-ms="44" started-at="2019-07-29T11:24:08Z" finished-at="2019-07-29T11:24:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=KRASReportSignoff status=SUCCESS method=TestConfig.KRASReportSignoff()[pri:23, instance:biocept.qa.testcases.TestConfig@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:biocept.qa.testcases.TestConfig@6e6c3152]" name="LogOut" is-config="true" duration-ms="1012" started-at="2019-07-29T11:24:08Z" finished-at="2019-07-29T11:24:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+      </class> <!-- biocept.qa.testcases.TestConfig -->
+      <class name="biocept.qa.testcases.BioceptTestBase">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:biocept.qa.testcases.BioceptTestBase@3e9b1010]" name="beforeSuite" is-config="true" duration-ms="247" started-at="2019-07-29T11:06:10Z" finished-at="2019-07-29T11:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:biocept.qa.testcases.BioceptTestBase@3e9b1010]" name="tearDown" is-config="true" duration-ms="690" started-at="2019-07-29T11:24:09Z" finished-at="2019-07-29T11:24:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- biocept.qa.testcases.BioceptTestBase -->
+    </test> <!-- Molecular Workflow -->
+  </suite> <!-- Biocept -->
+</testng-results>

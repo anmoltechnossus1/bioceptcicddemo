@@ -1,0 +1,339 @@
+<html>
+<head>
+<title>TestNG:  CTC-FISH Workflow for Global Cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CTC-FISH Workflow for Global Cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>52/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 29 11:06:10 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>625 seconds (625450 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.AccesstionType()'><b>AccesstionType</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify the accession type when user create an accession with Assign Professional Work checkbox selection</td>
+<td></td>
+<td>1</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.ActivityTitleAfterReOpen()'><b>ActivityTitleAfterReOpen</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify the activity after reopen the case from completed worklist</td>
+<td></td>
+<td>1</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.AssignProfessionalWorkToBiocept()'><b>AssignProfessionalWorkToBiocept</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to assign Professional Work To Biocept from edit accession</td>
+<td></td>
+<td>16</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.BioviewScanData()'><b>BioviewScanData</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to complete the Bioview Scan Data Activity</td>
+<td></td>
+<td>7</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.BioviewScanDataActivityTitle()'><b>BioviewScanDataActivityTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open the Bioview Scan Data Activity</td>
+<td></td>
+<td>6</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.CTCICCResultsSummary()'><b>CTCICCResultsSummary</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to complete the CTC ICC Results Summary Activity</td>
+<td></td>
+<td>8</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.CTCICCResultsSummaryActivityTitle()'><b>CTCICCResultsSummaryActivityTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open the CTC ICC Results Summary Activity</td>
+<td></td>
+<td>6</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.CTC_FISH_SampleTraveler()'><b>CTC_FISH_SampleTraveler</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to download CTC-FISH Sample Traveler</td>
+<td></td>
+<td>0</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.CTC_FISH_ScoreSheet()'><b>CTC_FISH_ScoreSheet</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to download CTC-FISH Score Sheet</td>
+<td></td>
+<td>0</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.CTC_FISH_SummaryReport()'><b>CTC_FISH_SummaryReport</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to download CTC-FISH Summary Report</td>
+<td></td>
+<td>0</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.CellCepProcessing()'><b>CellCepProcessing</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to complete the Cell Cep Processing Activity</td>
+<td></td>
+<td>13</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.CellCepProcessingActivityTitle()'><b>CellCepProcessingActivityTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open the Cell Cep Processing Activity</td>
+<td></td>
+<td>21</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.CellSepBatching()'><b>CellSepBatching</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to complete the Cell Cep Batching Activity</td>
+<td></td>
+<td>8</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.CellSepBatchingActivityTitle()'><b>CellSepBatchingActivityTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open the Cell Cep Batching Activity</td>
+<td></td>
+<td>6</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.CompletedWorklist()'><b>CompletedWorklist</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open the Completed Worklist</td>
+<td></td>
+<td>11</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.ConfirmationOnTechOnlyPI()'><b>ConfirmationOnTechOnlyPI</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify the confirmation message when user clicks on QC complete button</td>
+<td></td>
+<td>1</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.DownloadPlasmaCSV()'><b>DownloadPlasmaCSV</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify the download functionality for PlasmaCSV</td>
+<td></td>
+<td>0</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.EnumerationImageReview()'><b>EnumerationImageReview</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to complete the Enumeration Image Review Activity</td>
+<td></td>
+<td>22</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.EnumerationImageReviewActivityTitle()'><b>EnumerationImageReviewActivityTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open the Enumeration Image Review Activity</td>
+<td></td>
+<td>6</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.FISHAutobatchedworklist()'><b>FISHAutobatchedworklist</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to complete the FISH Auto batched worklist Activity</td>
+<td></td>
+<td>8</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.FISHAutobatchedworklistActivityTitle()'><b>FISHAutobatchedworklistActivityTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open the FISH Auto batched worklist Activity</td>
+<td></td>
+<td>6</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.FISHReloAnalysis()'><b>FISHReloAnalysis</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to complete the FISH Relo Analysis Activity</td>
+<td></td>
+<td>7</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.FISHReloAnalysisActivityTitle()'><b>FISHReloAnalysisActivityTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open the FISH Relo Analysis Activity</td>
+<td></td>
+<td>7</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.FISHResultsSummary()'><b>FISHResultsSummary</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to complete the FISH Results Summary Activity</td>
+<td></td>
+<td>9</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.FISHResultsSummaryActivityTitle()'><b>FISHResultsSummaryActivityTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open the FISH Results Summary Activity</td>
+<td></td>
+<td>12</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.FishReviewApproveTitle()'><b>FishReviewApproveTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open FISH Review & Approve Worklist</td>
+<td></td>
+<td>4</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.GenerateLongLabel()'><b>GenerateLongLabel</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to download Generate Long Label(s)</td>
+<td></td>
+<td>0</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.GenerateMolecularLabel()'><b>GenerateMolecularLabel</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to download Generate Molecular Label</td>
+<td></td>
+<td>0</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.GenerateSmallLabel()'><b>GenerateSmallLabel</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to download Generate Small Label</td>
+<td></td>
+<td>0</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.GoBacktoPhysicianPortalButton()'><b>GoBacktoPhysicianPortalButton</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify Go Back to Physician Portal Button on Tech Only Professional Interpretation page.</td>
+<td></td>
+<td>5</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.LIMSLogin()'><b>LIMSLogin</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to login in LIMS portal</td>
+<td></td>
+<td>70</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.MEMSProcessing()'><b>MEMSProcessing</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to complete the Mems Processing Activity</td>
+<td></td>
+<td>5</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.MEMSProcessingActivityTitle()'><b>MEMSProcessingActivityTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open the Mems Processing Activity</td>
+<td></td>
+<td>7</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.MemsBatching()'><b>MemsBatching</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to complete the Mems Batching Activity</td>
+<td></td>
+<td>6</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.MemsBatchingActivityTitle()'><b>MemsBatchingActivityTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open the Mems Batching Activity</td>
+<td></td>
+<td>6</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.MyWorklistTitle()'><b>MyWorklistTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open the My Worklist</td>
+<td></td>
+<td>6</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.OrderHistoryWorklist()'><b>OrderHistoryWorklist</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify Tech Only Professional Interpretation Button on Order History Worklist</td>
+<td></td>
+<td>9</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.PIActivityTitle()'><b>PIActivityTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open the TechOnly Professional Interpretation Activity</td>
+<td></td>
+<td>7</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.PatientNameOnBarcodePage()'><b>PatientNameOnBarcodePage</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify patient name on barcode page</td>
+<td></td>
+<td>1</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.PhysicianPortalLogin()'><b>PhysicianPortalLogin</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to login in Physician Portal</td>
+<td></td>
+<td>14</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.PlaceNewOrder()'><b>PlaceNewOrder</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to create a new accession for CTC-FISH</td>
+<td></td>
+<td>107</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.QAReportingWorklist()'><b>QAReportingWorklist</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to complete the QA Reporting</td>
+<td></td>
+<td>19</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.QAReportingWorklistTitle()'><b>QAReportingWorklistTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to open the QA Reporting Worklist</td>
+<td></td>
+<td>5</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.QCComplete()'><b>QCComplete</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to QC Complete the PI Activity</td>
+<td></td>
+<td>5</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.QC_CompleteButtonOnProfessionalInterpretation()'><b>QC_CompleteButtonOnProfessionalInterpretation</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify the QC CompleteButton button on Professional Interpretation page</td>
+<td></td>
+<td>25</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.ReopenConfirmationPopupOnCompletedWorklist()'><b>ReopenConfirmationPopupOnCompletedWorklist</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify the functionality when user tries to reopen the case from completed worklist</td>
+<td></td>
+<td>7</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.ReportVersionSelectionPopUp()'><b>ReportVersionSelectionPopUp</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify the functionality when user tries to signoff the report again</td>
+<td></td>
+<td>14</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.SignoffReportFromPhysicianPortal()'><b>SignoffReportFromPhysicianPortal</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to signoff the report from Physician Portal.</td>
+<td></td>
+<td>47</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.SignoffTheReportForNewVersion()'><b>SignoffTheReportForNewVersion</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to create a new version of report</td>
+<td></td>
+<td>14</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.TechOnlyProfessionalInterpretation()'><b>TechOnlyProfessionalInterpretation</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to complete the PI Activity</td>
+<td></td>
+<td>18</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.UploadAccessionImagesPageTitle()'><b>UploadAccessionImagesPageTitle</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify user is able to upload the CTC/FISH images</td>
+<td></td>
+<td>9</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+<tr>
+<td title='biocept.qa.testcases.CTC_FISHWorklow.dashboard()'><b>dashboard</b><br>Test class: biocept.qa.testcases.CTC_FISHWorklow<br>Test method: Verify the total link count on dashboard </td>
+<td></td>
+<td>0</td>
+<td>biocept.qa.testcases.CTC_FISHWorklow@6c3708b3</td></tr>
+</table><p>
+</body>
+</html>
