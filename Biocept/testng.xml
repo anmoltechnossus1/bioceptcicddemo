@@ -11,6 +11,7 @@
    
     <test name="Molecular Workflow">
 	 <classes>
+	 
 	   <class name="biocept.qa.testcases.TestConfig"/>
 	 </classes>
    </test>
