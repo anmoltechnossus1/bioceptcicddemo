@@ -5,14 +5,17 @@
     <classes>
       <class name="biocept.qa.testcases.TestConfig">
         <methods>
+          <include name="LogOut"/>
           <include name="PlaceNewOrderForMolecular"/>
           <include name="BRAFResultingActivityTitle"/>
+          <include name="getResult"/>
           <include name="UploadSequenceImagesForKRAS"/>
           <include name="KRASSequencingActivityTitle"/>
           <include name="NRASPIActivityResult"/>
           <include name="BRAFResultingUpdateResult"/>
           <include name="KRASPIActivityResult"/>
           <include name="UploadMacroFile"/>
+          <include name="setup"/>
           <include name="NRASResultingActivityTitle"/>
           <include name="UploadNGSFile"/>
           <include name="NRASReportSignoff"/>
@@ -34,32 +37,36 @@
       </class> <!-- biocept.qa.testcases.TestConfig -->
       <class name="biocept.qa.testcases.BioceptTestBase">
         <methods>
+          <include name="tearDown"/>
           <include name="beforeTest"/>
           <include name="beforeSuite"/>
         </methods>
       </class> <!-- biocept.qa.testcases.BioceptTestBase -->
       <class name="biocept.qa.testcases.MolecularWorkflow">
         <methods>
-          <include name="UploadSequenceImages"/>
           <include name="PlaceNewOrderForMolecular"/>
           <include name="KRASSequencingActivityTitle"/>
-          <include name="KRASResultingUpdateResult"/>
+          <include name="LogOut"/>
           <include name="BRAFResultingActivityTitle"/>
+          <include name="setup"/>
           <include name="NRASResultingActivityTitle"/>
+          <include name="getResult"/>
           <include name="BRAFResultingUpdateResult"/>
           <include name="UploadMacroFile"/>
           <include name="KRASPIActivityResult"/>
-          <include name="BRAFPIActivityTitle"/>
           <include name="NRASPIActivityResult"/>
-          <include name="NRASResultingUpdateResult"/>
-          <include name="NRASPIActivityTitle"/>
-          <include name="KRASSequencingActivityResult"/>
-          <include name="BRAFSequencingActivityTitle"/>
           <include name="BRAFSequencingActivityResult"/>
           <include name="KRASReportSignoff"/>
           <include name="BRAFPIActivityResult"/>
           <include name="KRASResultingActivityTitle"/>
           <include name="NRASReportSignoff"/>
+          <include name="UploadSequenceImages"/>
+          <include name="KRASResultingUpdateResult"/>
+          <include name="BRAFPIActivityTitle"/>
+          <include name="NRASResultingUpdateResult"/>
+          <include name="NRASPIActivityTitle"/>
+          <include name="KRASSequencingActivityResult"/>
+          <include name="BRAFSequencingActivityTitle"/>
           <include name="KRASPIActivityTitle"/>
           <include name="BRAFReportSignoff"/>
         </methods>
@@ -109,8 +116,11 @@
           <include name="GenerateSmallLabel"/>
           <include name="GenerateLongLabel"/>
           <include name="BioviewScanDataActivityTitle"/>
+          <include name="getResult"/>
+          <include name="LogOut"/>
           <include name="DownloadPlasmaCSV"/>
           <include name="ConfirmationOnTechOnlyPI"/>
+          <include name="setup"/>
           <include name="FISHResultsSummaryActivityTitle"/>
           <include name="MEMSProcessing"/>
           <include name="AssignProfessionalWorkToBiocept"/>
@@ -122,13 +132,16 @@
       </class> <!-- biocept.qa.testcases.CTC_FISHWorklow -->
       <class name="biocept.qa.testcases.NRASWorkflow">
         <methods>
-          <include name="NRASPIActivityResult"/>
           <include name="PageTitle"/>
           <include name="NRASReportSignoff"/>
-          <include name="NRASResultingActivityTitle"/>
-          <include name="dashboard"/>
+          <include name="tearDown"/>
+          <include name="Initi"/>
           <include name="NRASResultingUpdateResult"/>
           <include name="NRASPIActivityTitle"/>
+          <include name="NRASPIActivityResult"/>
+          <include name="setup"/>
+          <include name="NRASResultingActivityTitle"/>
+          <include name="dashboard"/>
           <include name="UploadMacroFile"/>
           <include name="BarcodePage"/>
           <include name="PlaceNewOrder"/>
@@ -137,14 +150,17 @@
       <class name="biocept.qa.testcases.NewTest">
         <methods>
           <include name="Test1"/>
+          <include name="getResult"/>
         </methods>
       </class> <!-- biocept.qa.testcases.NewTest -->
       <class name="biocept.qa.testcases.BRAFWorkflow">
         <methods>
+          <include name="Initi"/>
           <include name="BRAFPIActivityTitle"/>
           <include name="BRAFSequencingActivityResult"/>
           <include name="BRAFSequencingActivityTitle"/>
           <include name="PageTitle"/>
+          <include name="tearDown"/>
           <include name="BRAFPIActivityResult"/>
           <include name="BarcodePage"/>
           <include name="BRAFReportSignoff"/>
@@ -153,6 +169,7 @@
           <include name="PlaceNewOrder"/>
           <include name="dashboard"/>
           <include name="UploadMacroFile"/>
+          <include name="setup"/>
           <include name="BRAFResultingUpdateResult"/>
         </methods>
       </class> <!-- biocept.qa.testcases.BRAFWorkflow -->
@@ -163,10 +180,13 @@
       </class> <!-- biocept.qa.testcases.NewTest1 -->
       <class name="biocept.qa.testcases.CTC_FISHTechOnlyWorkflow">
         <methods>
+          <include name="LogOut"/>
           <include name="SignoffReportFromPhysicianPortal"/>
           <include name="ConfirmationOnTechOnlyPI"/>
           <include name="GoBacktoPhysicianPortalButton"/>
+          <include name="getResult"/>
           <include name="PhysicianPortalLogin"/>
+          <include name="setup"/>
           <include name="OrderHistoryWorklist"/>
           <include name="QCComplete"/>
           <include name="AccesstionType"/>
@@ -182,7 +202,10 @@
           <include name="KRASSequencingActivityTitle"/>
           <include name="KRASPIActivityResult"/>
           <include name="UploadMacroFile"/>
+          <include name="setup"/>
           <include name="KRASReportSignoff"/>
+          <include name="tearDown"/>
+          <include name="Initi"/>
           <include name="PageTitle"/>
           <include name="KRASPIActivityTitle"/>
           <include name="BarcodePage"/>
@@ -202,6 +225,7 @@
           <include name="GenerateSmallLabel"/>
           <include name="DownloadPlasmaCSV"/>
           <include name="ConfirmationPopupOnCompletedWorklist"/>
+          <include name="setup"/>
           <include name="FISHResultsSummary"/>
           <include name="PIActivityTitle"/>
           <include name="ReportVersionSelectionPopUp"/>
@@ -234,6 +258,8 @@
           <include name="BioviewScanDataActivityTitle"/>
           <include name="EnumerationImageReview"/>
           <include name="GenerateLongLabel"/>
+          <include name="getResult"/>
+          <include name="LogOut"/>
           <include name="GenerateMolecularLabel"/>
           <include name="EnumerationImageReviewActivityTitle"/>
           <include name="QAReportingWorklistTitle"/>
@@ -241,16 +267,19 @@
       </class> <!-- biocept.qa.testcases.CTC_FISHGlobalWorkflow -->
       <class name="biocept.qa.testcases.EGFRWorkflow">
         <methods>
+          <include name="setup"/>
           <include name="dashboard"/>
           <include name="MolEGFRPIActivityResult"/>
           <include name="MolEGFRPIActivityTitle"/>
           <include name="PlaceNewOrder"/>
           <include name="UploadSequenceImages"/>
           <include name="PageTitle"/>
+          <include name="tearDown"/>
           <include name="MolEGFRSequencingActivityResult"/>
           <include name="MolEGFRResultingUpdateResult"/>
           <include name="MolEGFRResultingActivityTitle"/>
           <include name="MolEGFRSequencingActivityTitle"/>
+          <include name="Initi"/>
           <include name="MolEGFRReportSignoff"/>
           <include name="UploadMacroFile"/>
           <include name="BarcodePage"/>
