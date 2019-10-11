@@ -56,7 +56,7 @@ public class BioceptBase {
 					
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/java/biocept/qa/config/Browsers Driver/chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--headless");
+			//options.addArguments("--headless");
 			options.addArguments("--window-size=1920,1080");
 			 options.addArguments("disable-infobars");	
 			driver = new ChromeDriver(options);
